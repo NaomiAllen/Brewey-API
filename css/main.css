@@ -1,12 +1,13 @@
 body {
   font-family: sans-serif;
+  background-color: maroon;
 }
 
 img{
-  margin-top: 5px;
-  margin-left: 5px;
-  width: 900px;
-  height: 450px;
+  display: block;
+  margin: 0 auto;
+  height:  475px;
+
 }
 
 header{

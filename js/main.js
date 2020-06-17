@@ -5,7 +5,6 @@
 
 /*---------------------------------- Cache ----------------------------------*/
 const baseURL = 'https://api.brewerydb.com/v2/';
-const apikey = 'key=0d8881693054b317b3ab989c18a74c4d';
 const queryType = 'beers/';
 let nameQuery = '';
 let queryURL = baseURL + queryType + '?' + apikey 
