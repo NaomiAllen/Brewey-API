@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+
+img{
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 900px;
+  height: 450px;
+}
+
+header{
+  text-align: center;
+
+}
+
+.input-field{
+  background-color: orange;
+  
+
+}
+
+
