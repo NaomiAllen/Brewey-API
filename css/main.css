@@ -1,14 +1,35 @@
+/* phone */
+@media only screen and (min-width: 600px){
+  body{
+    background-color: blue;
+  }
+}
+
+/* tablet */
+@media only screen and (min-width: 768px){
+  body{
+    background-color: tomato;
+  }
+  
+  img{
+    display: block;
+    margin: 0 auto;
+    height:  475px;
+  
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1024px){
+  body{
+    background-color: yellow;
+  }
+}
 body {
   font-family: sans-serif;
   background-color: maroon;
 }
 
-img{
-  display: block;
-  margin: 0 auto;
-  height:  475px;
-
-}
 
 header{
   text-align: center;
@@ -19,6 +40,11 @@ header{
   background-color: orange;
   
 
+}
+
+.container{
+  color: white;
+  text-align: center;
 }
 
 
