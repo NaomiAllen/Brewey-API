@@ -1,28 +1,28 @@
 /* phone */
-@media only screen and (min-width: 600px){
-  body{
-    background-color: blue;
+@media only screen and (min-width: 450px){
+  .Image{
+    display: block;
+    margin: 0 auto;
+    width:  700px;
+    
   }
 }
 
 /* tablet */
 @media only screen and (min-width: 768px){
-  body{
-    background-color: tomato;
-  }
+ 
   
-  img{
+  .Image{
     display: block;
-    margin: 0 auto;
-    height:  475px;
+    width:  750px;
   
   }
 }
 
 /* desktop */
 @media only screen and (min-width: 1024px){
-  body{
-    background-color: yellow;
+  .Image{
+    width: 1050px
   }
 }
 body {
@@ -37,14 +37,23 @@ header{
 }
 
 .input-field{
-  background-color: orange;
+  background-color:rgb(226, 159, 34);
   
 
 }
 
 .container{
-  color: white;
+  color:black;
   text-align: center;
 }
+
+.nav-wrapper{
+  background-color:rgb(226, 159, 34) ;
+}
+
+/* .Image{
+  width: 1000px;
+} */
+
 
 
