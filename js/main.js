@@ -9,7 +9,7 @@ const getBeer = (nameQuery) => {
         console.log(beerData.data)
         for (let i = 0; i <= beerData.data.length; i++) {
             let beerName = beerData.data[i].name
-            let thisBeer = '<div class="col s12 m6"><div class="card"><div class="card-image"><div id="accordion"><a href= "wishlist.html" class="btn-floating halfway waves-effect waves-light red"><i class="material-icons icon-color">add</i></a><a href= "wishlist.html"  class="btn-floating halfway waves-effect waves-light red"><i class="material-icons icon-color">favorite</i></a><div class="card-content"><div>'
+            let thisBeer = '<div class="col s12 m6"><div class="card"><div class="card-image"><div id="accordion"><a href= "wishlist.html" class="btn-floating halfway waves-effect waves-light red"><i class="material-icons icon-color">add</i></a><a href= "favorites.html"  class="btn-floating halfway waves-effect waves-light red"><i class="material-icons icon-color">favorite</i></a><div class="card-content"><div>'
              + (beerData.data[i].name)  + '</div><div>' + (beerData.data[i].style.description) 
             + '</div><div>' + 'ABV: ' + (beerData.data[i].abv) + '</div><div>' + 'Organic: ' + (beerData.data[i].isOrganic) + '</div><div>' + '</div>' + '<br></br>' + ' </div></div></div></div></div>'
             $('.container').append(thisBeer)
