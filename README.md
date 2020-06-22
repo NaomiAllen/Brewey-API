@@ -1,6 +1,6 @@
 # Special Hopps
 
-## [ My Site Link] (https://NaomiAllen.github.io)
+##  My Site Link: https://NaomiAllen.github.io
 
 
 
