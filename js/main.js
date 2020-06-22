@@ -29,8 +29,5 @@ $(() =>{
         getBeer(nameQuery)
     })
 
-    $(document).on('click', (event)=>{
-        $('.sidenav').click();
-    });
 });
 
