@@ -51,9 +51,18 @@ header{
   background-color:rgb(226, 159, 34) ;
 }
 
-/* .Image{
-  width: 1000px;
-} */
+.btn-floating{
+  margin-top: 10px;
+  
+}
+
+#accordion{
+  background-color:peachpuff;
+}
+
+.icon-color{
+  background-color: coral;
+}
 
 
 
